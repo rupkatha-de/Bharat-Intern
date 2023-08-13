@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assests/background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav {
+  height: 10vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.nav .logo {
+  width: 20%;
+  height: 80%;
+}
+
+.nav .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav .navlink {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav .navlink a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: red;
+  height: 60%;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.nav .selection {
+  width: 9rem;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b1bcc;
+  border-radius: 5px;
+  border: 0.7px solid rgb(110, 108, 108);
+}
+
+.nav select {
+  width: 80%;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.container .input {
+  width: 50%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .input input {
+  width: 60%;
+  height: 70%;
+  background: #1b1b1bcc;
+  border: 1px solid rgb(110, 108, 108);
+  outline: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.container .input button {
+  width: 30%;
+  height: 70%;
+  background: red;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
